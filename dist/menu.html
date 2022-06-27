@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+  <html lang="en">
+   
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <title>Chordata Harvest Menu Page</title>  
+  </head>
+
+  <body>  
+    <!-------------------------- Navigation Bar ---------------------------------------->                  
+    <nav class="navbar navbar-expand-lg bg-light" >
+      
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../dist/index.html">Chordata Harvest</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" target="_self">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../dist/index.html" target="_self">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="../dist/menu.html" target="_self">Menu</a>
+            </li>
+
+          </ul>
+        </div>
+      
+      </div>
+    </nav>
+
+<!-------------------------- acordion  ---------------------------------------->
+
+    <div class="acordion" id="menuAccordion">
+
+      <!-------------Breakfast------------------->
+      <div class="card">
+
+        <div class="card-header" id="headingBreakfast">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBreakfast" aria-expanded="true" aria-controls="collapseBreakfast">
+              Breakfast
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseBreakfast" class="collapse show" aria-labelledby="headingBreakfast" data-parent="#accordionExample">
+          <div class="card-body">
+            <div class="container-xl">
+              <figure class="text-center">
+                <table class="table" id="breakfastTable">
+                  
+                  <caption> Breakfast Options </caption>
+        
+                  <thead class="table-dark table-responsive">
+                    <tr>
+                      <th scope="col">Item</th>
+                      <th scope="col">English Description</th>
+                      <th scope="col">Spanish Description</th>
+                      <th scope="col">Ingredient</th>
+                      <th scope="col">Price</th>
+                    </tr>
+                  </thead>
+                  
+                  <tbody class="table-group-divider" id='breakfastBody'> 
+                
+                  </tbody>    
+                </table>
+              </figure>   
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    <!-------------Entree------------------->
+      <div class="card">
+
+        <div class="card-header" id="headingEntree">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEntree" aria-expanded="true" aria-controls="collapseEntree">
+              Entree
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseEntree" class="collapse show" aria-labelledby="headingEntree" data-parent="#accordionExample">
+          <div class="card-body">
+            <div class="container-xl">
+              <figure class="text-center">
+                <table class="table" id="entreeTable">
+                  
+                  <caption> Entree Options </caption>
+        
+                  <thead class="table-dark table-responsive">
+                    <tr>
+                      <th scope="col">Item</th>
+                      <th scope="col">English Description</th>
+                      <th scope="col">Spanish Description</th>
+                      <th scope="col">Ingredient</th>
+                      <th scope="col">Price</th>
+                    </tr>
+                  </thead>
+                  
+                  <tbody class="table-group-divider" id='entreeBody'> 
+                
+                  </tbody>    
+                </table>
+              </figure>   
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!---------------Main------------------>
+      <div class="card">
+
+        <div class="card-header" id="headingMain">
+          <h2 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMain" aria-expanded="true" aria-controls="collapseMain">
+              Main
+            </button>
+          </h2>
+        </div>
+
+        <div id="collapseMain" class="collapse" aria-labelledby="headingMain" data-parent="#accordionExample">
+          <div class="card-body">
+            <div class="container-xl">
+              <figure class="text-center">
+                <table class="table" id="menuTable">
+                  
+                  <caption> Main dish Options </caption>
+        
+                  <thead class="table-dark table-responsive">
+                    <tr>
+                      <th scope="col">Item</th>
+                      <th scope="col">English Description</th>
+                      <th scope="col">Spanish Description</th>
+                      <th scope="col">Ingredient</th>
+                      <th scope="col">Price</th>
+                    </tr>
+                  </thead>
+                  
+                  <tbody class="table-group-divider" id='tableBody'> 
+                
+                  </tbody>    
+                </table>
+              </figure>   
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+        <!---------------Dessert---------------------->
+        <div class="card">
+
+          <div class="card-header" id="headingDessert">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDessert" aria-expanded="true" aria-controls="collapseDessert">
+                Dessert
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseDessert" class="collapse" aria-labelledby="headingDessert" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="container-xl">
+                <figure class="text-center">
+                  <table class="table" id="desertTable">
+                    
+                    <caption> Desserts options </caption>
+          
+                    <thead class="table-dark table-responsive">
+                      <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">English Description</th>
+                        <th scope="col">Spanish Description</th>
+                        <th scope="col">Ingredient</th>
+                        <th scope="col">Price</th>
+                      </tr>
+                    </thead>
+                    
+                    <tbody class="table-group-divider" id='desertBody'> 
+                  
+                    </tbody>    
+                  </table>
+                </figure>   
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-----------------Drinks----------------------->
+        <div class="card">
+
+          <div class="card-header" id="headingDrinks">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDrinks" aria-expanded="true" aria-controls="collapseDrinks">
+                Drinks
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseDrinks" class="collapse" aria-labelledby="headingDrinks" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="container-xl">
+                <figure class="text-center">
+                  <table class="table" id="drinkTable">
+                    
+                    <caption> Drinks Options </caption>
+          
+                    <thead class="table-dark table-responsive">
+                      <tr>
+                        <th scope="col">Item</th>
+                        <th scope="col">English Description</th>
+                        <th scope="col">Spanish Description</th>
+                        <th scope="col">Ingredient</th>
+                        <th scope="col">Price</th>
+                      </tr>
+                    </thead>
+                    
+                    <tbody class="table-group-divider" id='drinkBody'> 
+                  
+                    </tbody>    
+                  </table>
+                </figure>   
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!------------end of cascade----------------->
+      
+    </div>
+    
+  
+  </body>
+  <script src="menu.bundle.js"></script>        
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</html>    
